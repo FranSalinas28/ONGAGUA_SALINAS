@@ -142,7 +142,6 @@ header{
 .centrado{
    position: absolute;
    width: 100px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 30px;
    color: lavender;
    margin: 10px;
@@ -179,6 +178,10 @@ h1{
     margin: 20px;
     font-family: "quicksand";
     font-size: 15px;
+}
+
+.contenedor h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .imgFocas{
