@@ -551,9 +551,6 @@ h1{
 }
         
 
-.alineacionCaja fieldset{
-    width: 80%;
-}
 
 .allineacionCaja p legend{
     font-size: 20px;
@@ -608,16 +605,10 @@ p{
         
         
             
-table{
-    height: 400px ;
-}
+
 
         
-th, td{
-                
-    font-size: medium;
-    border: 4px solid lightcoral;
-}
+
 
 fieldset{
    height: 520px;
