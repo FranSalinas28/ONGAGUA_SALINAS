@@ -8,119 +8,107 @@
     <link rel="shortcut icon" href="/imagenes/drop.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     
 </head>
-<body>
+<body class="text-center">
 
-<div class="gridContainer">
-<header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">CuidaElAgua</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-   
-     <li class="nav-item"> <a class="nav-link" href="paginas/quehacemos.html">Qué hacemos</a> </li>
-     <li class="nav-item"> <a class="nav-link" href="paginas/quienessomos.html">Quiénes somos</a> </li>
-     <li class="nav-item"> <a class="nav-link" href="paginas/unete.html">Únete</a> </li>
-     <li class="nav-item"> <a class="nav-link active" aria-current="page" href="paginas/aporta.html">Aporta</a> </li>
-     <li class="nav-item"> <a class="nav-link" href="paginas/contacto.html">Contacto</a> </li>
-   
-    </ul>
-   </div>
-  </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/paginas/quehacemos.html">Qué Hacemos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/paginas/unete.html">Únete</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Aporta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/paginas/aporta.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
-    </header>
-
-    
-  <div class="contenedor">
-      <img class="imgFocas" src="../imagenes/annie-spratt-o1bnhassePU-unsplash.jpg" alt="">
-
-      <div class="alineacionCaja">
-      <form>
-        <fieldset class="cajaAporta">
-          <legend>Todo suma</legend>
-          <p>Aporta lo que puedas</p>
-            
-    
-        <select name="Todo suma">
-          <option value="Depósito">Depósito</option>
-          <option value="Transferencia">Transferencia</option>
-          <option value="Publícanos">Publícanos</option>
-        </select>
-       
-        <form action="" method="get">
-          <input type="submit" value="Enviar">
-
-      </fieldset>
-    </form>  
-  </div>
 
 
-  <div class="home">
-    <div class="animate__animated animate__bounce">
-      <img class="imgHeart" src="../imagenes/heartpng.png" alt="">
-     
-   <p class="textoHome">      
-   <a href="../index.html">Ir al home</a> 
-   </p>
+<h1 class="text-white pt-5">El cambio es posible juntos</h1>
+
+<h2 class="text-white pt-5">Todo suma</h2>
+ <div class="row justify-content-center"> 
+   <div class="col-md-4 col-10 mt-5 ">  
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Depósito</option>
+      <option value="2">Transferencia</option>
+      <option value="3">Comparte</option>
+    </select>
+    </div>
  </div>
-</div>
 
-<div class="contenedor2">
-    
-  <h1 class="titularReservas"> Aporta directamente</h1>
-  <div class="row row-cols-1 row-cols-md-2">
-    <div class="col">
-      <div class="card h-100">
-        <img src="../imagenes/Cerro_Paine_Grande.jpeg" class="card-img-top" alt="ParqueNacional">
+ <button type="button" class="btn btn-primary mt-5 text-white">Aporta</button>
+
+ <br>
+ <br>
+ <br>
+ <br>
+
+
+<h3 class="text-white">Reservas y parques</h3>
+
+ <div class="container pt-3">
+  <div class="row">
+    <div class="col-md-4 col-12 mt-3">
+      <div class="card w-100" style="width: 18rem;">
+        <img src="../imagenes/Cerro_Paine_Grande.jpeg" class="card-img-top" alt="TorresDelPaine">
         <div class="card-body">
           <h5 class="card-title">Parque Nacional Torres del Paine</h5>
           <p class="card-text">Destaca por la protección de más de 25 especies de fauna y 274 especies de plantas.</p>
-        </div>
-        
-      
+          <a href="#" class="btn btn-primary">Dona</a>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="../imagenes/Pinguinos_reserva.jpeg" class="card-img-top" alt="ReservaNacional">
+    <div class="col-md-4 col-12 mt-3">
+      <div class="card w-100" style="width: 18rem;">
+        <img src="../imagenes/Pinguinos_reserva.jpeg" class="card-img-top" alt="ReservaHumboldt">
         <div class="card-body">
           <h5 class="card-title">Reserva Nacional Pinguino de Humboldt</h5>
-          <p class="card-text">Formada por tres islas que conforman diferentes especies de pinguinos y flora única.</p>
+          <p class="card-text">Formada por tres islas que conforman diferentes especies de pinguinos y flora única</p>
+          <a href="#" class="btn btn-primary">Dona</a>
         </div>
-           <a href="#" class="btn btn-primary">Aporta</a>
-         </div>
-        </div>
+      </div>
     </div>
-  
-
-
-  
-
-  
-      <footer>  
-        <p class="titularfooter"> F.Salinas 2022 </p>
-    
-        <div class="redes">
-          <a href="instagram">Instagram</a>
-          <a href="facebook">Facebook</a>
-    
+    <div class="col-md-4 col-12 mt-3">
+      <div class="card w-100" style="width: 18rem;">
+        <img src="../imagenes/parque-nacional-la-campana.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Parque Nacional Lauca </h5>
+          <p class="card-text">Donde viven más de 130 diferentes especies de aves como vicuñas, vizcachas y cóndores.</p>
+          <a href="#" class="btn btn-primary ">Dona</a>
         </div>
-        
-      </footer>
-      
-  </div>
+      </div>
+    </div>
+</div>
 
-  <script src="js/wow.min.js"></script>
-  <script> new WOW().init(); </script>
+
+<footer class="text-center p-5">
+
+  <span>  Fran Salinas 2022  </span>
+  <a href="instagram">Instagram</a>
+  <a href="facebook">Facebook</a>
+
+</footer>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         </body>
 

@@ -8,93 +8,167 @@
     <link rel="shortcut icon" href="/imagenes/drop.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     
 </head>
 <body>
-
-<div class="gridContainer">
-  <header>
-    
+ 
+<body>
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">CuidaElAgua</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-      <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-     
-       <li class="nav-item"> <a class="nav-link" href="paginas/quehacemos.html">Qué hacemos</a> </li>
-       <li class="nav-item"> <a class="nav-link" href="paginas/quienessomos.html">Quiénes somos</a> </li>
-       <li class="nav-item"> <a class="nav-link active" aria-current="page" href="paginas/unete.html">Únete</a> </li>
-       <li class="nav-item"> <a class="nav-link" href="paginas/aporta.html">Aporta</a> </li>
-       <li class="nav-item"> <a class="nav-link" href="paginas/contacto.html">Contacto</a> </li>
-     
-      </ul>
-     </div>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/quehacemos.html">Qué Hacemos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Únete</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/aporta.html">Aporta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-   
 
-</header> 
-     
-    
-     <div class="contenedor">
-     
-      <img class= "imgOso" src="../imagenes/elefante.jpeg" alt="">
-      
-      <form class="alineacionCaja" action="">
-        
-        <h1>Sé parte</h1>
-        <h2><label for="Nombre">Nombre</label></h2>
-        <input type="text" name="" id="Nombre Usuario">
-        <h2><label for="exampleFormControlInput1" class="form-label">Email</label></h2>
-      <input type="email" class="form-control" name="" id="exampleFormControlInput1">
-      <h2><label for="Password">Contraseña</label></h2>
-       <input type="password" name="Crea tu contraseña" id="">
-       <input type="submit" value="Enviar">
-    </form>
-    
- 
-    
-    <div class="home"> 
-        <img class="imgHeart" src="../imagenes/heartpng.png" alt="">
-     
-        <p class="textoHome">      
-     <a href="../index.html">Ir al home</a> 
-     </p>
-   
+
+    <br>
+    <br>
+    <br>
+    <h1 class="text-white m-3"> Sé parte del cambio</h1>
+  <form class="row g-3 needs-validation m-3 text-white" novalidate>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+      <div class="valid-feedback">
+        Súper!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+      <div class="valid-feedback">
+        Súper!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Escoge un usuario
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Escribe una ciudad correcta
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">State</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Elige...</option>
+        <option>...</option>
+      </select>
+      <div class="invalid-feedback">
+        Selecciona una región correcta
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Por favor poner un código correcto
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Acepta términos y condiciones
+        </label>
+        <div class="invalid-feedback">
+          Debes aceptar para unirte
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Unirme</button>
+    </div>
+  </form>
+ <br>
+ <br>
+ <br>
+
+  <h3 class="text-white m-3">¿Qué hemos logrado últimamente?</h3>
+
+  <div class="container pt-3">
+   <div class="row">
+     <div class="col-md-4 col-12 mt-3">
+       <div class="card w-100" style="width: 18rem;">
+         <img src="../imagenes/limpiar-playas.jpeg" class="card-img-top" alt="TorresDelPaine">
+         <div class="card-body">
+           <h5 class="card-title">Empresas Conscientes</h5>
+           <p class="card-text">Con nuestra asesoría, diferentes empresas han cambiado sus políticas frente al agua.</p>
+           
+       </div>
      </div>
-
-     
-    </div>
-
-    <div class="contenedor2">
-    
-      <iframe class="video" width="320" height="500" src="https://www.youtube.com/embed/gjaSlAP9LQQ?controls=0&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-      picture-in-picture" allowfullscreen></iframe>
-       
-      </div>
-
-    <footer>  
-
-     
-        <p class="titularfooter"> F.Salinas 2022 </p>
-    
-        <div class="redes">
-          <a href="instagram">Instagram</a>
-          <a href="facebook">Facebook</a>
-    
-      </div>
+     <div class="col-md-4 col-12 mt-3">
+       <div class="card w-100" style="width: 18rem;">
+         <img src="../imagenes/patagoniacerros.png" class="card-img-top" alt="ReservaHumboldt">
+         <div class="card-body">
+           <h5 class="card-title">Alianza Patagonia</h5>
+           <p class="card-text">Para la impartición del proyecto, limpiemos las playas alrededor de Chile.</p>
+         
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4 col-12 mt-3">
+       <div class="card w-100" style="width: 18rem;">
+         <img src="../imagenes/Porelagua.png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Agua 2022</h5>
+           <p class="card-text"> Un evento para conscientizar del uso del agua y creación de políticas públicas </p>
       
-       </footer>
-    </div>
+         </div>
+       </div>
+     </div>
+ </div>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
       
-    <script src="js/wow.min.js"></script>
-    <script> new WOW().init(); </script>
+  <footer class="text-center p-5">
+
+    <span>  Fran Salinas 2022  </span>
+    <a href="instagram">Instagram</a>
+    <a href="facebook">Facebook</a>
+
+  </footer>
+    
+      
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     </body>
