@@ -9,23 +9,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
 </head>
 <body>
 
 <div class="gridContainer">
-<header> 
-    
-    <div class="cajaheader">
-     <ul class="menu">
-   
-      <li> <a href="quehacemos.html">Qué hacemos</a> </li>
-      <li> <a href="quienessomos.html">Quiénes somos</a> </li>
-      <li> <a href="unete.html">Únete</a> </li>
-      <li> <a href="aporta.html">Aporta</a> </li>
-      <li> <a href="contacto.html">Contacto</a> </li>
-     </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">CuidaElAgua</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
      
+       <li class="nav-item"> <a class="nav-link" href="paginas/quehacemos.html">Qué hacemos</a> </li>
+       <li class="nav-item"> <a class="nav-link" href="paginas/quienessomos.html">Quiénes somos</a> </li>
+       <li class="nav-item"> <a class="nav-link active" aria-current="page" href="paginas/unete.html">Únete</a> </li>
+       <li class="nav-item"> <a class="nav-link" href="paginas/aporta.html">Aporta</a> </li>
+       <li class="nav-item"> <a class="nav-link" href="paginas/contacto.html">Contacto</a> </li>
+     
+      </ul>
+     </div>
     </div>
+    </nav>
+   
 
 </header> 
      
@@ -33,35 +44,19 @@
      <div class="contenedor">
      
       <img class= "imgOso" src="../imagenes/elefante.jpeg" alt="">
-      <div>
+      
       <form class="alineacionCaja" action="">
         
-        <div class="row mb-3">
-         <h1>Sé parte</h1>
-         <h1><label for="inputName3" class="col-sm-2 col-form-label">Nombre</label></h1>
-         <div class="col-sm-10">
-         <input type="name" class="form-control" name="" id="inputName3">
-         </div>
-        </div>
-
-        <div class="row mb-3">
-         <h1><label for="inputEmail3" class="col-sm-2 col-form-label">Email</label></h1>
-         <div class="col-sm-10">
-         <input type="email" class="form-control" name="" id="inputEmail3">
-         </div>
-         </div>
-
-         <div class="row mb-3">
-       <h1><label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label></h1>
-       <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword3" name="Crea tu contraseña">
-       </div>
-       </div>
-
-       <button type="button" class="btn btn-info">Enviar</button>
-        
+        <h1>Sé parte</h1>
+        <h2><label for="Nombre">Nombre</label></h2>
+        <input type="text" name="" id="Nombre Usuario">
+        <h2><label for="exampleFormControlInput1" class="form-label">Email</label></h2>
+      <input type="email" class="form-control" name="" id="exampleFormControlInput1">
+      <h2><label for="Password">Contraseña</label></h2>
+       <input type="password" name="Crea tu contraseña" id="">
+       <input type="submit" value="Enviar">
     </form>
-    </div>
+    
  
     
     <div class="home"> 
@@ -78,10 +73,8 @@
 
     <div class="contenedor2">
     
-        <img class="imgOceano" src="../imagenes/oceano2.jpg" alt="mar">
-      
-      <h1 class="textomodificado">Todo llega al agua</h1>
-      
+      <iframe width="320" height="500" src="https://www.youtube.com/embed/gjaSlAP9LQQ?controls=0&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+      picture-in-picture" allowfullscreen></iframe>
        
       </div>
 
@@ -91,15 +84,16 @@
         <p class="titularfooter"> F.Salinas 2022 </p>
     
         <div class="redes">
-          <a class="link-info" href="instagram">Instagram</a> 
-          <a class="link-info" href="facebook">Facebook</a> 
-   
+          <a href="instagram">Instagram</a>
+          <a href="facebook">Facebook</a>
+    
       </div>
       
        </footer>
     </div>
       
-
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     </body>

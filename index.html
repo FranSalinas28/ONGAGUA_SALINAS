@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
     crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     
     
 </head>
@@ -16,24 +17,27 @@
  
 <div class="gridContainer">
 <header>
-  
-  <header>
-  
-    <div class="cajaheader">  
-   <ul class="menu">
-     
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CuidaElAgua</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
    
-     <li> <a href="paginas/quehacemos.html">Qué hacemos</a> </li>
-     <li> <a href="paginas/quienessomos.html">Quiénes somos</a> </li>
-     <li> <a href="paginas/unete.html">Únete</a> </li>
-     <li> <a href="paginas/aporta.html">Aporta</a> </li>
-     <li> <a href="paginas/contacto.html">Contacto</a> </li>
+     <li class="nav-item"> <a class="nav-link" aria-current="page" href="paginas/quehacemos.html">Qué hacemos</a> </li>
+     <li class="nav-item"> <a class="nav-link" href="paginas/quienessomos.html">Quiénes somos</a> </li>
+     <li class="nav-item"> <a class="nav-link" href="paginas/unete.html">Únete</a> </li>
+     <li class="nav-item"> <a class="nav-link" href="paginas/aporta.html">Aporta</a> </li>
+     <li class="nav-item"> <a class="nav-link" href="paginas/contacto.html">Contacto</a> </li>
    
     </ul>
    </div>
-
-   </header>
-    </header>
+  </div>
+  </nav>
+  </header>
 
    
     
@@ -48,20 +52,19 @@
   </div>
 
 
-
   
     <div class="contenedor2">
-    
+      
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="img-fluid" src="./imagenes/ocean.jpg" class="d-block w-100" alt="...">
+            <img class="img-fluid" src="./imagenes/ocean.jpg" class="d-block w-100" alt="oceano">
           </div>
           <div class="carousel-item">
-            <img class="img-fluid" src="./imagenes/hielo.jpg" class="d-block w-100" alt="...">
+            <img class="img-fluid" src="./imagenes/hielo.jpg" class="d-block w-100" alt="hielo">
           </div>
           <div class="carousel-item">
-            <img class="img-fluid" src="./imagenes/estrella.jpg" class="d-block w-100" alt="...">
+            <img class="img-fluid" src="./imagenes/estrella.jpg" class="d-block w-100" alt="vida">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -73,8 +76,10 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
-    <h1 class="textomodificado">Todo llega al agua</h1>
+     
+    <div class="textomodificado">
+    <h2>Todo llega al agua</h2>
+    </div>
 
      
     </div>
@@ -85,8 +90,8 @@
     
         <p class="titularfooter"> F.Salinas 2022 </p>
     <div class="redes">
-      <a class="link-info" href="instagram">Instagram</a> 
-       <a class="link-info" href="facebook">Facebook</a> 
+      <a href="instagram">Instagram</a>
+      <a href="facebook">Facebook</a>
 
        
        </div>
@@ -96,7 +101,8 @@
   </div>
   
 
-
+  <script src="js/wow.min.js"></script>
+  <script> new WOW().init(); </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 
