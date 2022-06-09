@@ -4,6 +4,8 @@
      src: url('../Fonts/quicksand/Quicksand-Bold.otf')
 }
 
+@import 'variables';
+@import 'tipografias' ;
 
 * {
     margin: 0px;
@@ -11,9 +13,12 @@
 }
 
 h1{
-    font-family: quicksand;
+    font-family: $text-title;
 }
 
+p{
+    font-family: $text;
+}
 
 .container-fluid{
     padding: 0px;
@@ -21,11 +26,10 @@ h1{
 }
 
 
-
 .image-container {
     position: relative;
     text-align: center;
-    color: white;
+    color: $color-texto;
 }
 
 .centered-text {
@@ -49,12 +53,17 @@ h1{
 
 }
 .destacado:hover{
-    background-color:indianred
+    background-color: $color-secundario;
+}
+
+.subrayado:hover{
+    text-decoration: underline;
+    color: $color-secundario;
 }
 
 body {
      background: rgb(2,0,36);
-background: linear-gradient(162deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+background: $color-pricipal; 
 height: 10%
 
 
@@ -64,7 +73,14 @@ height: 10%
     padding-top: 100px;
 }
 
-footer{
-    background-color: rgb(59, 189, 233);
-}
 
+
+footer{
+    background-color: $color-terciario;
+
+   a{
+       color: $color-pricipal;
+       text-decoration: none;
+
+   }
+}
