@@ -6,7 +6,8 @@
   margin: 0px; }
 
 h1 {
-  font-family: "quicksand"; }
+  font-family: "quicksand";
+  font-size: 30px; }
 
 p {
   font-family: "verdana"; }
@@ -29,12 +30,14 @@ p {
 .card-img-top {
   width: 100%;
   height: 15vw;
-  object-fit: cover; }
+  object-fit: cover;
+  box-shadow: 0 10px 30px white; }
 
 .card-img-bottom {
   width: 100%;
   height: 15vw;
-  object-fit: cover; }
+  object-fit: cover;
+  box-shadow: 0 10px 30px white; }
 
 .destacado:hover {
   background-color: coral; }
@@ -44,8 +47,7 @@ p {
   color: coral; }
 
 body {
-  background: #020024;
-  background: #69BCDD;
+  background-color: #69BCDD;
   height: 10%; }
 
 .space-between {
@@ -54,5 +56,8 @@ body {
 footer {
   background-color: #f2e3bc; }
   footer a {
-    color: #69BCDD;
     text-decoration: none; }
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 50px; } }

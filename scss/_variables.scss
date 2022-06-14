@@ -1,4 +1,9 @@
-$color-pricipal: #69BCDD;
-$color-texto: white;
-$color-secundario: coral;
-$color-terciario: #f2e3bc;
+//mapa de colores
+$colors:(color-principal:#69BCDD, color-texto: white, color-secundario: coral, color-terciario:#f2e3bc);
+
+//breakpoint
+$desktop: 992px;
+
+//sombreado
+$shadow: 0 10px 30px white;
+

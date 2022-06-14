@@ -12,8 +12,15 @@
     
 }
 
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+
 h1{
     font-family: $text-title;
+    font-size: 30px;
+
 }
 
 p{
@@ -29,7 +36,7 @@ p{
 .image-container {
     position: relative;
     text-align: center;
-    color: $color-texto;
+    color: color(color-texto);
 }
 
 .centered-text {
@@ -43,6 +50,7 @@ p{
     width: 100%;
     height: 15vw;
     object-fit: cover;
+    box-shadow: $shadow;
 }
 
 
@@ -50,20 +58,20 @@ p{
     width: 100%;
     height: 15vw;
     object-fit: cover;
+    box-shadow: $shadow;
 
 }
 .destacado:hover{
-    background-color: $color-secundario;
+    background-color: color(color-secundario);
 }
 
 .subrayado:hover{
     text-decoration: underline;
-    color: $color-secundario;
+    color: color(color-secundario);
 }
 
 body {
-     background: rgb(2,0,36);
-background: $color-pricipal; 
+background-color: color(color-principal); 
 height: 10%
 
 
@@ -76,11 +84,26 @@ height: 10%
 
 
 footer{
-    background-color: $color-terciario;
+    background-color: color(color-terciario);
 
    a{
-       color: $color-pricipal;
+       color: color(color-pricipal);
        text-decoration: none;
 
    }
+}
+
+@mixin desktop {
+    @media (min-width:#{$desktop}) {
+        @content
+    }
+    
+}
+
+@include desktop {
+
+
+    h1 {
+    font-size:50px;
+    }
 }
