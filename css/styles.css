@@ -50,8 +50,11 @@ body {
 footer {
   background-color: #f2e3bc; }
   footer a {
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 5px; }
 
 @media (min-width: 992px) {
   h1 {
-    font-size: 50px; } }
+    font-size: 50px; }
+  .carousel-item p, .carousel-inner p {
+    padding-bottom: 20px; } }
