@@ -44,6 +44,7 @@ p{
     top: 30%;
     left: 30%;
     transform: translate(-50%, -50%);
+    margin-top: 5px;
 }
 
 .card-img-top{
@@ -108,7 +109,6 @@ footer{
         @extend .carousel-item;
 
     }
-
 
     .carousel-item{
     p{

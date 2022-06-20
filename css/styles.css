@@ -25,7 +25,8 @@ p {
   position: absolute;
   top: 30%;
   left: 30%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  margin-top: 5px; }
 
 .card-img-top, .card-img-bottom {
   width: 100%;
